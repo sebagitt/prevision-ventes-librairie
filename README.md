@@ -1,9 +1,36 @@
-# P9_Analyse_Ventes_Lapage 📖
-L’entreprise Lapage était originellement une librairie physique avec plusieurs points de vente. Mais devant le succès de certains de ses produits et l’engouement de ses clients, elle a décidé depuis 2 ans d’ouvrir un site de vente en ligne. 
-J'interviens ici en tant que Data Analyst pour les aider à mieux comprendre leurs données et faire le point sur leur activité. 
+\# Prévision des ventes en librairie
 
-Cela passe notamment par :
-- l'élaboration de différents graphiques autour du chiffre d'affaires,
-- la réalisation de focus sur les références,
-- la mise en avant d'informations sur les profils des clients
-- et la recherche de différentes corrélations.
+
+
+Analyse statistique et prévision de séries temporelles pour prédire le chiffre d'affaires d'une librairie et valider la segmentation comportementale des achats.
+
+
+
+\*\*Stack :\*\* `Python 3.x`, `Pandas`, `SciPy`, `Statsmodels`, `Plotly`
+
+
+
+\## Vue d'ensemble
+
+Analyse de l'historique transactionnel pour optimiser les stocks et la typologie de client. L'étude décompose les tendances, teste les hypothèses de segmentation et prévoit les recommandations stratégiques futures.
+
+
+
+Résultats :
+
+\- Décomposition de la tendance sur 36 mois (tendance, saisonnalité, résidus).
+
+\- Test du Chi-2 et test ANOVA validant la variance par saison et par catégorie.
+
+\- Modélisation des prévisions des tendances en fonction des personas.
+
+
+
+\## Livrables
+
+\- `01\_preparation\_analyse\_lapage.ipynb` : Analyse complète (exploratoire, tests statistiques, prévisions).
+
+\- `02\_presentation\_recommandations\_Lapage.pdf` : Synthèse exécutive avec visualisations.
+
+\- `pyproject.toml` : uv environment spec
+

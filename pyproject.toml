@@ -1,0 +1,18 @@
+[project]
+name = "01-wip"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.14"
+dependencies = [
+    "black>=26.1.0",
+    "ipykernel>=7.1.0",
+    "jupyter>=1.1.1",
+    "matplotlib>=3.10.8",
+    "numpy>=2.4.1",
+    "pandas>=2.3.3",
+    "plotly>=6.5.2",
+    "seaborn>=0.13.2",
+    "spicy>=0.16.0",
+    "statsmodels>=0.14.6",
+]
