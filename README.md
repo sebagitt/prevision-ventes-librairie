@@ -6,7 +6,7 @@
 
 ## Vue d'ensemble
 Lapage, librairie physique ayant ouvert une boutique en ligne, cherche à mieux comprendre ses dynamiques de vente. 
-L'objectif est d'analyser plus de 640 000 transactions sur 36 mois pour identifier les anomalies de vente, évaluer la rentabilité du catalogue et segmenter la clientèle.
+L'objectif est d'analyser plus de 640 000 transactions sur 24 mois pour identifier les anomalies de vente, évaluer la rentabilité du catalogue et segmenter la clientèle.
 
 ## Architecture et modèle de données
 Le projet repose sur la réconciliation et le nettoyage de 3 tables relationnelles :
